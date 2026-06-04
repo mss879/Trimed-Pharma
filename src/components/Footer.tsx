@@ -143,7 +143,13 @@ export default function Footer() {
           </p>
           <p className="flex items-center gap-1">
             <span>Designed & Developed By</span>
-            <span className="font-semibold text-slate-600">STECH Technologies</span>
+            <a
+              href="https://www.arcai.agency"
+              target="_blank"
+              className="font-semibold text-slate-600 hover:text-primary transition-colors"
+            >
+              ARC AI
+            </a>
           </p>
         </div>
       </div>
